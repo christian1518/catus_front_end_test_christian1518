@@ -19,7 +19,7 @@ const products = [
     },
     {
         id: 3,
-        name: "Luminária",
+        name: "Pá",
         price: 238.41,
         discount: 20,
         image: "src/assets/images/shovel.png",

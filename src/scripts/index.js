@@ -10,11 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
             productElement.className = "product";
             productElement.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
-                <h3>${product.name}</h3>
                 <p>${product.description}</p>
-                <p>de R$ 582,00</p>
-                <p>R$ ${product.price.toFixed(2)}</p>
-                <p>5x de R$ 47,68 sem juros</p>
+                <del>de R$ 582,00</del>
+                <h3>R$ ${product.price.toFixed(2)}</h3>
+                <p><span>5x</span> de <span>R$ 47,68</span> sem juros</p>
                 <button>Adicionar ao carrinho</button>
             `;
             productList.appendChild(productElement);

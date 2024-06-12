@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catus - Test</title>
     <link rel="stylesheet" href="src/styles/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,18 +18,22 @@
                 <li><a href="#">Loja</a></li>
                 <li><a href="#">Login</a></li>
                 <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Digite aqui sua busca">
-            <button id="search-button">Buscar</button>
+
+        <div id="div_search">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Digite aqui sua busca">
+                <button id="search-button"><img src="src/assets/icons/btn_search.svg" alt="buscar"></button>
+            </div>
+            <div class="cart-icon">
+                <img src="src/assets/icons/cart_icon.svg" alt="Carrinho">
+            </div>
         </div>
-        <div class="cart-icon">
-            <img src="src/assets/icons/cart_icon.svg" alt="Carrinho">
-        </div>
+            
     </header>
-    
+
     <main>
         <section class="highlight">
             <img src="src/assets/images/mosaic_photo.png" alt="Foto destaque">
@@ -38,32 +46,39 @@
     </main>
 
     <footer>
-        <div class="contact-info">
-            <p>Central de Atendimento</p>
-            <p>Ajuda e suporte</p>
-            <p>Fale conosco</p>
-            <p>Faq</p>
-            <p>Whatsapp: (11) 99999-9999</p>
-            <p>Nossos horários: Segunda a sexta das 9h às 18h</p>
+        <div id="contact" class="contact-info">
+            <span class="span_central">Central de Atendimento</span>
+            <div>
+                <p>Ajuda e suporte</p>
+                <p>Fale conosco</p>
+                <p>Faq</p>
+            </div>
+            <span>Whatsapp: (11) 99999-9999</span>
+            <p><span>Nossos horários</span></p>
+            <p>Segunda a sexta das 9h às 18h</p>  
         </div>
         <div class="security-seals">
-            <p>Selos de segurança</p>
+            <span class="span_seals-security">Selos de segurança</span>
             <div>
-                <img src="src/assets/images/google_seal.png" alt="Google Segurança">
-                <img src="src/assets/images/story_protect.png" alt="Loja Protegida">
+                <img class="img_google-security" src="src/assets/images/google_seal.png" alt="Google Segurança">
+                <img class="img_story_protect" src="src/assets/images/story_protect.png" alt="Loja Protegida">
             </div>
         </div>
         <div class="payment-methods">
-            <img src="src/assets/icons/visa_icon.png" alt="Visa">
-            <img src="src/assets/icons/mastercard_icon.png" alt="Mastercard">
-            <img src="src/assets/icons/amex_icon.png" alt="Amex">
-            <img src="src/assets/icons/elo_icon.png" alt="Elo">
-            <img src="src/assets/icons/descover_icon.png" alt="Descover">
-            <img src="src/assets/icons/codebar_icon.png" alt="Boleto">
-            <img src="src/assets/icons/pix_icon.png" alt="Pix">
+            <span class="span_payments_methods">Formas de pagamento</span>
+            <div>
+                <img src="src/assets/icons/visa_icon.png" alt="Visa">
+                <img src="src/assets/icons/mastercard_icon.png" alt="Mastercard">
+                <img src="src/assets/icons/amex_icon.png" alt="Amex">
+                <img src="src/assets/icons/elo_icon.png" alt="Elo">
+                <img src="src/assets/icons/descover_icon.png" alt="Descover">
+                <img src="src/assets/icons/codebar_icon.png" alt="Boleto">
+                <img src="src/assets/icons/pix_icon.png" alt="Pix">
+            </div>
+            
         </div>
     </footer>
-    <script src="scripts/database.js"></script>
-    <script src="scripts/index.js"></script>
+    <script src="src/scripts/database.js" defer></script>
+    <script src="src/scripts/index.js" defer></script>
 </body>
 </html>

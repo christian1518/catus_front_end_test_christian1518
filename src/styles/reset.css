@@ -1,18 +1,21 @@
 :root {
-    --color-primary: #00EEA2;
-    --color-primary-hover: #7C91FF;
+    --color-grey-1: #484848;
+    --color-grey-2: #8C8C8C;
+    --color-grey-3: #A4BEBF;
+    --color-grey-4: #EEEEEE;
     --color-white: #FFFFFF;
     --color-black: #000000;
-    
-    --font-1: 1.4rem;
-    --font-2: 1.6rem;
-    --font-3: 3.2rem;
-    --font-4: 2rem;
-    
-    font-family: Arial, sans-serif;
+    --color-secondary: #32BCAD;
 
-    --radius-button: 1.2rem;
-    --radius-card: 2.5rem;
+    --font-size-1: 1.125rem; /*18px*/
+    --font-size-2: 1.75rem; /*28px*/
+    --font-size-3: 0.875rem; /*14px*/
+    --font-size-4: 1rem; /*16px*/
+    
+    --font-family-primary: 'Inter', sans-serif;
+    --font-family-secondary: 'Poppins', sans-serif;
+
+    --radius-button: 0.25rem;
 
     font-size: 62.5%;
 }
@@ -39,9 +42,5 @@ body, html {
 }
 
 body, input, button, textarea {
-    font-family: 'Inter', sans-serif;
-}
-
-button {
-    cursor: pointer;
+    font-family: var(--font-family-primary)
 }

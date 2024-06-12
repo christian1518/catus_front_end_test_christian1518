@@ -1,0 +1,92 @@
+main {
+    margin-top: 20px;
+}
+
+/* Section de destaque */
+.highlight {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 1rem 16rem;
+}
+
+.highlight img {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 400px;
+    border-radius: 8px;
+}
+
+/* Section relacionada a vitrine(showcase) */
+.opportunities {
+    text-align: center;
+}
+
+.opportunities h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 260px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: start;
+    background-color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: var(--font-size-2);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: var(--color-grey-1);
+}
+
+.product p {
+    margin-top: 5px;
+    color: var(--color-grey-2);
+    margin-bottom: 15px;
+    font-size: var(--font-size-3);
+}
+
+.product del {
+    margin-top: 5px;
+    color: var(--color-grey-2);
+    margin-bottom: 15px;
+    font-size: var(--font-size-3);
+}
+
+
+.product span {
+    color: var(--color-grey-1);
+    font-weight: 700;
+    font-size: var(--font-size-3);
+}
+
+.product button {
+    padding: 10px;
+    background-color: var(--color-grey-3);
+    color: var(--color-black);
+    border: none;
+    border-radius: var(--radius-button);
+    font-weight: 700;
+    font-size: var(--font-size-4);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+}

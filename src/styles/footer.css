@@ -1,0 +1,64 @@
+footer {
+    background-color: var(--color-grey-1);
+    color: var(--color-white);
+    padding: 2rem 16rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact-info p, .security-seals img, .payment-methods img {
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: var(--font-size-3);
+}
+
+.contact-info div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.security-seals img, .payment-methods img {
+    width: 40px;
+    height: auto;
+}
+
+.contact-info span {
+    font-weight: 700;
+    font-size: var(--font-size-1);
+    color: var(--color-white);
+    margin-top: 1rem;
+}
+
+.span_central, .span_seals-security, .span_payments_methods{
+    border-bottom: 1px solid var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.security-seals span {
+    font-weight: 700;
+    font-size: var(--font-size-1);
+    color: var(--color-white);
+    margin-top: 1rem;
+}
+
+.security-seals div {
+    margin-top: 1rem;
+}
+
+.security-seals div img {
+    height: 2.6rem;
+    width: 9rem;
+}
+
+.payment-methods span {
+    font-weight: 700;
+    font-size: var(--font-size-1);
+    color: var(--color-white);
+    margin-top: 1rem;
+}
+
+.payment-methods div {
+    margin-top: 1rem;
+}
