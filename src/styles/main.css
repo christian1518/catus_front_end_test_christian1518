@@ -29,7 +29,6 @@ main {
 .product-list {
     display: flex;
     justify-content: center;
-    overflow-x: scroll;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -89,4 +88,9 @@ main {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 10px;
+}
+
+.product button:hover {
+    background-color: var(--color-secondary);
+    transition: 1s;
 }
