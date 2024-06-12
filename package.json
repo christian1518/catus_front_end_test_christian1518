@@ -1,0 +1,23 @@
+{
+  "name": "catus_front_end_test_christian1518",
+  "version": "1.0.0",
+  "description": "My test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian1518/catus_front_end_test_christian1518.git"
+  },
+  "keywords": [
+    "test",
+    "frontend"
+  ],
+  "author": "Christian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian1518/catus_front_end_test_christian1518/issues"
+  },
+  "homepage": "https://github.com/christian1518/catus_front_end_test_christian1518#readme"
+}

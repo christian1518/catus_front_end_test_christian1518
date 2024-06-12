@@ -1,0 +1,47 @@
+:root {
+    --color-primary: #00EEA2;
+    --color-primary-hover: #7C91FF;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    
+    --font-1: 1.4rem;
+    --font-2: 1.6rem;
+    --font-3: 3.2rem;
+    --font-4: 2rem;
+    
+    font-family: Arial, sans-serif;
+
+    --radius-button: 1.2rem;
+    --radius-card: 2.5rem;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    background: var(--color-white);
+    background-attachment: fixed;
+    color: var(--color-black);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+body, input, button, textarea {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
